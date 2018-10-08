@@ -90,7 +90,7 @@ rotated_img.save("rotated_melon.jpg")
 
 `Image.merge(mode, bands)`
 
-- Parameters :	
+- Parameters :	<br>
 mode – The mode to use for the output image. (e.g., RGB) <br>
 bands – A sequence containing one single-band image for each band in the output image. (e.g., r, g, b)
 
