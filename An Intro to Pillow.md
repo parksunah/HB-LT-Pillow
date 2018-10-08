@@ -92,12 +92,12 @@ rotated_img.save("rotated_melon.jpg")
 
 - Parameters :	<br>
 mode – The mode to use for the output image. (e.g., RGB) <br>
-bands – A sequence containing one single-band image for each band in the output image. (e.g., g, b, r)
+bands – A sequence containing one single-band image for each band in the output image. (e.g., r, g, b)
 
 
 ```python
 r, g, b = img.split()
-new_img = Image.merge("RGB", (r, g, b))
+new_img = Image.merge("RGB", (b, g, r))
 new_img.show()
 ```
 
