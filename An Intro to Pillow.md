@@ -1,7 +1,7 @@
 
 <br><br><br><br>
-<font size=25><b>An Intro to Pillow</font></b><br><br>
-<font size=25>Python Image Library</font>
+# An Intro to Pillow
+Python Image Library
 <br><br><br><br>
 18/10/8 <br>
 Hackbright Lightning Talk <br>
@@ -143,6 +143,3 @@ https://pillow.readthedocs.io/en/5.3.x/index.html <br>
 https://www.blog.pythonlibrary.org/?s=pillow <br><br>
 
 
-```python
-
-```
