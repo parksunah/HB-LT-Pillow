@@ -86,12 +86,12 @@ rotated_img.save("rotated_melon.jpg")
 
 ### Split and Merge
 
-`Image.split(bands)`
+`Image.split()`
 
 `Image.merge(mode, bands)`
 
 - Parameters :	<br>
-mode – The mode to use for the output image. (e.g., RGB) <br>
+mode –  The type and depth of a pixel in the image. (e.g., RGB) <br>
 bands – A sequence containing one single-band image for each band in the output image. (e.g., r, g, b)
 
 
