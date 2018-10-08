@@ -92,7 +92,7 @@ rotated_img.save("rotated_melon.jpg")
 
 - Parameters :	<br>
 mode –  The type and depth of a pixel in the image. (e.g., RGB) <br>
-bands – A sequence containing one single-band image for each band in the output image. (e.g., r, g, b)
+bands – A sequence containing one single-band image for each band in the output image. (e.g., RGB has r, g, b)
 
 
 ```python
@@ -105,7 +105,7 @@ new_img.show()
 
 `Image.convert(mode)`
 
-- Parameter : mode – The requested mode. (e.g., L is black and white, RGB, etc.)
+- Parameter : mode – The requested mode. (e.g., Black and White - L, RGB, etc.)
 
 
 ```python
